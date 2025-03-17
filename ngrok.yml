@@ -1,0 +1,9 @@
+version: "2"
+authtoken: 2u1p99aG9T9yD8gbEgO3QL2uB9W_7e5gpQcxxErJ2RFEQtRXZ
+tunnels:
+  nextjs:
+    proto: http
+    addr: 3000
+  websocket:
+    proto: http
+    addr: 5000

@@ -14,9 +14,36 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0b0b0b;
     --foreground: #ededed;
   }
+}
+
+@layer components {
+  .icons {
+    @apply w-10 h-10 p-3 ;
+  }
+
+  .buttons-active{
+     @apply rounded bg-black text-white w-8 h-8 flex items-center justify-center;
+  }
+
+  .buttons-inactive{
+    @apply text-black w-8 h-8 flex items-center justify-center;
+ }
+}
+
+.ProseMirror h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.ProseMirror h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.ProseMirror h3 {
+  font-size: 1.17em;
+  font-weight: bold;
 }
 
 body {
